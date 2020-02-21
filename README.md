@@ -2,11 +2,11 @@
 homework
 
 # Week 2
-![Week2](/Week02/1.jpg)
-![Week2](/Week02/2.jpg)
-![Week2](/Week02/3.jpg)
-![Week2](/Week02/4.jpg)
-![Week2](/Week02/5.jpg)
+![Week2](/Week02/1.JPG)
+![Week2](/Week02/2.JPG)
+![Week2](/Week02/3.JPG)
+![Week2](/Week02/4.JPG)
+![Week2](/Week02/5.JPG)
 ![Week2](/Week02/6.gif)
 
 # Week 3
