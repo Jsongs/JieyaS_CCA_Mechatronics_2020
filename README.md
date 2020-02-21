@@ -1,6 +1,13 @@
 # JieyaS_CCA_Mechatronics_2020
 homework
 
+# Week 1
+![Week1](/Week01/1.JPG)
+![Week1](/Week01/2.JPG)
+![Week1](/Week01/3.gif)
+![Week1](/Week01/4.gif)
+![Week1](/Week01/5.gif)
+
 # Week 2
 ![Week2](/Week02/1.JPG)
 ![Week2](/Week02/2.JPG)
