@@ -111,6 +111,7 @@ void loop() {
 
 # Week 5
 ![Week5](/Week05/1.gif)
+![Week5](/Week05/2.gif)
 ```cpp
 int ledPin = 9;    // LED connected to digital pin 9
 
