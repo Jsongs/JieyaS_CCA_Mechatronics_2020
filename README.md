@@ -252,11 +252,11 @@ void loop()
 ```
 
 # Week 7
-![Week7](/Week07/1.gif)
-![Week7](/Week07/2.GIF)
-![Week7](/Week07/3.gif)
-![Week7](/Week07/4.gif)
-![Week7](/Week07/5.gif)
+![Week7](/Week07/1.jpg)
+![Week7](/Week07/2.JPG)
+![Week7](/Week07/3.jpg)
+![Week7](/Week07/4.jpg)
+![Week7](/Week07/5.jpg)
 ![Week7](/Week07/Video.mp4)
 ```cpp
 #include <NewPing.h>
