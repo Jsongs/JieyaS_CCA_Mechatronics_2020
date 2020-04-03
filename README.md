@@ -216,6 +216,7 @@ void loop() {
 
 # Week 6
 ![Week6](/Week06/1.gif)
+![Week6](/Week06/2.jpg)
 ```cpp
 
 #include <IRremote.h>
