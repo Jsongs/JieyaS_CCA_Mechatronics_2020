@@ -257,7 +257,7 @@ void loop()
 ![Week7](/Week07/3.jpg)
 ![Week7](/Week07/4.jpg)
 ![Week7](/Week07/5.jpg)
-![Week7](/Week07/6.GIF)
+![Week7](/Week07/6.gif)
 ```cpp
 #include <NewPing.h>
 #include <Servo.h>
