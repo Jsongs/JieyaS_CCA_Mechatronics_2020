@@ -301,6 +301,6 @@ void loop() {
 - Capacitive touch sensing button    2$
 
 #### Posible Ideas
-![Week8](/Week08/1.jpg)
-![Week8](/Week08/2.jpg)
-![Week8](/Week08/3.jpg)
+![Week8](/Week08/1.jpeg)
+![Week8](/Week08/2.jpeg)
+![Week8](/Week08/3.jpeg)
