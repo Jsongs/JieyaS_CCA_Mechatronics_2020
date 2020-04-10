@@ -289,6 +289,18 @@ void loop() {
 
 # Week 8
 ## Final Project Proposal
-#### · For the final project I am interested in making a musical instrument.
+#### · For the final project I am interested in making a musical instrument. It can be playing normal sounds
 #### · Using multiple capacitive touch objects to create a keyboard instrument.
 #### · Optional: Using MIDI control to add more opputunities.
+
+#### Capacitive materials
+- Electric Paint                     20$
+- Foil paper                         3$
+- Water                              free
+- Cans                               free(Out of stock)
+- Capacitive touch sensing button    2$
+
+#### Posible Ideas
+![Week8](/Week08/1.jpg)
+![Week8](/Week08/2.jpg)
+![Week8](/Week08/3.jpg)
