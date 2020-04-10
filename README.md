@@ -286,3 +286,6 @@ void loop() {
 }
 ```
 ! Youtube Link https://youtu.be/c2PLC_cxuFs
+
+# Week 8
+Final Project Proposal
