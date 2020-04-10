@@ -288,7 +288,7 @@ void loop() {
 ! Youtube Link https://youtu.be/c2PLC_cxuFs
 
 # Week 8
-! Final Project Proposal
-! ·For the final project I am interested in making a musical instrument.
-! ·Using multiple capacitive touch objects to create a keyboard instrument.
-! ·Optional: Using MIDI control to add more opputunities.
+## Final Project Proposal
+### ·For the final project I am interested in making a musical instrument.
+### ·Using multiple capacitive touch objects to create a keyboard instrument.
+### ·Optional: Using MIDI control to add more opputunities.
