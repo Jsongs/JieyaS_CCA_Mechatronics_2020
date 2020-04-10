@@ -300,7 +300,11 @@ void loop() {
 - Cans                               free(Out of stock)
 - Capacitive touch sensing button    2$
 
-#### Posible Ideas
+#### Posible Forms
 ![Week8](/Week08/1.jpeg)
 ![Week8](/Week08/2.jpeg)
 ![Week8](/Week08/3.jpeg)
+
+#### Posible Ideas
+- Each sensor represents one sound, play it like how you would play a instrument normally.
+- Each sensor represents a segment of melody/music, creating music by combining segments of musics together.
