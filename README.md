@@ -308,3 +308,5 @@ void loop() {
 #### Posible Ideas
 - Each sensor represents one sound, play it like how you would play a instrument normally.
 - Each sensor represents a segment of melody/music, creating music by combining segments of musics together.
+
+# Week 9
