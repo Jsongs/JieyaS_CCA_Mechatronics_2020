@@ -311,6 +311,7 @@ void loop() {
 
 # Week 9
 ## Learning Simple Tone Generation
+![Week9](/Week09/1.gif)
 ```cpp
 void setup() //No information needed in the setup
 //the output gets automatically defined with the “tone” command
@@ -324,5 +325,22 @@ tone(8, 100); // The"tone ( x , y )" command creates a sound
 delay(1000); // with the duration of one second
 noTone(8); // The tone is deactivated
 delay(1000); // for one second
+}
+```
+![Week9](/Week09/2.gif)
+## Alternating Pitches
+```cpp
+void setup()
+{
+}
+void loop()
+{
+tone(8, 100);
+delay(1000);
+noTone(8); // This causes the first tone to stop
+tone(8, 200); //The second tone with the pitch “200” starts
+delay(1000); //for one second 
+noTone(8); //With this line the second tone stops and the loop starts over with 
+//the first tone
 }
 ```
