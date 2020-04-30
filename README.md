@@ -310,8 +310,10 @@ void loop() {
 - Each sensor represents a segment of melody/music, creating music by combining segments of musics together.
 
 # Week 9
+### All videos taken this week needs to be viewed with sound, I have taken 1 video shot for each coding, they are all MP4 format with the same name as the titles below, check under Week 9 folder in order to see them visually.
+### GIF format does not support any sound, sorry for the inconvenience.
 ## Learning Simple Tone Generation
-![Week9](/Week09/1.gif)
+![Week9](/Week09/1.png)
 ```cpp
 void setup() //No information needed in the setup
 //the output gets automatically defined with the “tone” command
@@ -327,14 +329,30 @@ noTone(8); // The tone is deactivated
 delay(1000); // for one second
 }
 ```
-![Week9](/Week09/2.gif)
+![Week9](/Week09/2.jpg)
 ## Alternating Pitches
 ```cpp
 void setup()
 {
 }
 void loop()
+{int button1=6;
+int buttonstatus=0;
+
+void setup()
 {
+pinMode(button1, INPUT);
+}
+
+void loop()
+{
+buttonstatus = digitalRead(button1);
+if (buttonstatus == HIGH)
+{
+tone(8, 300);
+noTone(8);
+}
+}
 tone(8, 100);
 delay(1000);
 noTone(8); // This causes the first tone to stop
@@ -344,3 +362,26 @@ noTone(8); //With this line the second tone stops and the loop starts over with
 //the first tone
 }
 ```
+
+## Generating a sound with a button
+![Week9](/Week09/3.png)
+```cpp
+int button1=6;
+int buttonstatus=0;
+
+void setup()
+{
+pinMode(button1, INPUT);
+}
+
+void loop()
+{
+buttonstatus = digitalRead(button1);
+if (buttonstatus == HIGH)
+{
+tone(8, 300);
+noTone(8);
+}
+}
+```
+### After I add the button, the sound that the buzzer make is very weak and sounds like its about to die soon, but I could not figure out why.
