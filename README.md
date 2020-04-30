@@ -373,3 +373,38 @@ noTone(8);
 ### After I add the button, the sound that the buzzer make is very weak and sounds like its about to die soon, but I could not figure out why.
 
 # Week 10
+## This week I was learning how to produce sound on more than one button
+![Week10](/Week10/1.jpg)
+![Week10](/Week10/2.png)
+```
+int button1=6; // button1 is connected to pin6 void loop()
+int button2=7; // button2 is connected to pin7
+int buttonstatus1=0; //variable to save the status of button1
+int buttonstatus2=0; //variable to save the status of button2
+
+void setup()
+{
+pinMode(button1, INPUT); //button1 is an input
+pinMode(button2, INPUT); //button2 is an input
+}
+
+void loop()
+{
+buttonstatus1 = digitalRead(button1); //get status from button1 (HIGH or LOW)
+buttonstatus2 = digitalRead(button2); //get status from button2 (HIGH or LOW)
+
+if (buttonstatus1 == HIGH) //If button1 gets pushed..
+{
+tone(8, 100); //...output of a tone with a pitch of 100...
+delay (1000); //...one second long...
+noTone(8); //...than turn it off
+}
+
+if (buttonstatus2 == HIGH) //If button2 gets pushed..
+{
+tone(8, 200); //...output of a tone with a pitch of 200...
+delay (1000); //...one second long...
+noTone(8); //...than turn it off
+}
+}
+```
