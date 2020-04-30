@@ -410,3 +410,10 @@ noTone(8); //...than turn it off
 }
 }
 ```
+
+# Week 11
+## FINAL WEEK!!!
+### Time has flew by so quickly!!! :(
+### I wish I had more time on this final project :(
+### I didn't get to develop this project to a fancy state...I am a slow code learner and other classes also stressed me out a bit under this COVID-19 situation...
+### This is what I have done so far - 
