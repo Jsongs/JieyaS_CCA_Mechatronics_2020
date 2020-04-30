@@ -374,6 +374,8 @@ noTone(8);
 
 # Week 10
 ## This week I was learning how to produce sound on more than one button
+### I have taken 1 video for this week, it needs to be viewed with sound, check under Week 10 folder in order to see it visually.
+### A mistake that I made: When I add the second button, I left the buzzer in between the two buttons, and it did not work. So I moved the buzzer all the way on the side and everything worked fine.
 ![Week10](/Week10/1.jpg)
 ![Week10](/Week10/2.png)
 ```
