@@ -329,30 +329,15 @@ noTone(8); // The tone is deactivated
 delay(1000); // for one second
 }
 ```
-![Week9](/Week09/2.jpg)
+
 ## Alternating Pitches
+### The arduino setting remain the same as tone generation, only difference is coding.
 ```cpp
 void setup()
 {
 }
 void loop()
-{int button1=6;
-int buttonstatus=0;
-
-void setup()
 {
-pinMode(button1, INPUT);
-}
-
-void loop()
-{
-buttonstatus = digitalRead(button1);
-if (buttonstatus == HIGH)
-{
-tone(8, 300);
-noTone(8);
-}
-}
 tone(8, 100);
 delay(1000);
 noTone(8); // This causes the first tone to stop
@@ -364,6 +349,7 @@ noTone(8); //With this line the second tone stops and the loop starts over with
 ```
 
 ## Generating a sound with a button
+![Week9](/Week09/2.jpg)
 ![Week9](/Week09/3.png)
 ```cpp
 int button1=6;
