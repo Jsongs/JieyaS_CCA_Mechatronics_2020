@@ -371,3 +371,5 @@ noTone(8);
 }
 ```
 ### After I add the button, the sound that the buzzer make is very weak and sounds like its about to die soon, but I could not figure out why.
+
+# Week 10
