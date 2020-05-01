@@ -312,6 +312,7 @@ void loop() {
 # Week 9
 ### All videos taken this week needs to be viewed with sound, I have taken 1 video shot for each coding, they are all MP4 format with the same name as the titles below, check under Week 9 folder in order to see them visually.
 ### GIF format does not support any sound, sorry for the inconvenience.
+### Everything in Week 9 and 10 is trying to learn about tone and capacitive sensor from online website tutorials.
 ## Learning Simple Tone Generation
 ![Week9](/Week09/1.png)
 ```cpp
