@@ -432,7 +432,6 @@ noTone(8); //...than turn it off
 ### Code
 ```cpp
 #include <CapacitiveSensor.h>
-#include "pitches.h"
 #define buzzer 11
 
 // Set the Send Pin & Receive Pin.
