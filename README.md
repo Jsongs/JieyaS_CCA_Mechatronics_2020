@@ -503,6 +503,6 @@ void loop()
  }
 ```
 ### Code Explanation
-![Week11](/Week11/6.pdf)
+https://github.com/Jsongs/JieyaS_CCA_Mechatronics_2020/blob/master/Week11/6.pdf
 ### Youtube Link: https://youtu.be/7BxpxhmjWmY
 ## Thank You!
