@@ -413,7 +413,94 @@ noTone(8); //...than turn it off
 
 # Week 11
 ## FINAL WEEK!!!
-### Time has flew by so quickly!!! :(
-### I wish I had more time on this final project :(
-### I didn't get to develop this project to a fancy state...I am a slow code learner and other classes also stressed me out a bit under this COVID-19 situation...
-### This is what I have done so far - 
+### I saved Fanta cans and cut them down into small pieces.
+![Week11](/Week11/1.jpg)
+![Week11](/Week11/2.jpg)
+
+### Testing how it works: I put the aluminum piece on top of jumper wire first, because both of them are relatively hard, they didnt touch well to allow electric pass thoroughly and fluently.
+### I also figured out that the type of tape I use will block electric...
+![Week11](/Week11/3.jpg)
+
+### After I fixed the electric problem I found one wire which plays a weired sound, I fixed it by simply changed the tone it plays, but I did not know why it did not like the old number.
+### Then I changed the number for all the wire so that they sound like Do-Re-Mi...
+
+### Final Piece
+![Week11](/Week11/4.jpg)
+### Circuit Diagram
+![Week11](/Week11/5.jpg)
+
+### Code
+```cpp
+#include <CapacitiveSensor.h>
+#include "pitches.h"
+#define buzzer 11
+
+// Set the Send Pin & Receive Pin.
+CapacitiveSensor   cs_12_3 = CapacitiveSensor(12,3);        
+CapacitiveSensor   cs_12_4 = CapacitiveSensor(12,4);         
+CapacitiveSensor   cs_12_5 = CapacitiveSensor(12,5);     
+CapacitiveSensor   cs_12_6 = CapacitiveSensor(12,6);     
+CapacitiveSensor   cs_12_7 = CapacitiveSensor(12,7);      
+CapacitiveSensor   cs_12_8 = CapacitiveSensor(12,8);         
+CapacitiveSensor   cs_12_9 = CapacitiveSensor(12,9);  
+CapacitiveSensor   cs_12_10 = CapacitiveSensor(12,10);     
+
+void setup()                    
+{
+  // turn off autocalibrate on channel 1 - just as an example
+  cs_12_3.set_CS_AutocaL_Millis(0xFFFFFFFF);  
+  cs_12_4.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+  cs_12_5.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+  cs_12_6.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+  cs_12_7.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+  cs_12_8.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+  cs_12_9.set_CS_AutocaL_Millis(0xFFFFFFFF);     
+  cs_12_10.set_CS_AutocaL_Millis(0xFFFFFFFF); 
+}
+
+void loop()                    
+{
+  // Set the sensitivity of the sensors.
+  long touch1 =  cs_12_3.capacitiveSensor(1000);
+  long touch2 =  cs_12_4.capacitiveSensor(1000);
+  long touch3 =  cs_12_5.capacitiveSensor(1000);
+  long touch4 =  cs_12_6.capacitiveSensor(1000);
+  long touch5 =  cs_12_7.capacitiveSensor(1000);
+  long touch6 =  cs_12_8.capacitiveSensor(1000);
+  long touch7 =  cs_12_9.capacitiveSensor(1000);
+  long touch8 =  cs_12_10.capacitiveSensor(1000);
+  
+  // When we touched the sensor, the buzzer will produce a tone.
+  if (touch1 > 1000){
+    tone(buzzer,385);
+    }  
+  if (touch2 > 1000){
+    tone(buzzer,370);
+    }  
+  if (touch3 > 1000){
+    tone(buzzer,328);
+  }
+  if (touch4 > 1000) {
+    tone(buzzer,294);
+  }
+  if (touch5 > 1000){
+    tone(buzzer,260);
+  }
+  if (touch6 > 1000){
+    tone(buzzer,250);
+  }
+  if (touch7 > 1000){
+    tone(buzzer,220);
+  }
+  if (touch8 > 1000){
+    tone(buzzer,200);
+  }
+
+  // When we didn't touch it, no tone is produced.
+  if (touch1<=1000  &  touch2<=1000  &  touch3<=1000 & touch4<=1000  &  touch5<=1000  &  touch6<=1000 &  touch7<=1000 &  touch8<=1000)
+    noTone(buzzer);
+  delay(10);  
+
+ }
+ ```
+## Thank You!
