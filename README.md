@@ -421,8 +421,8 @@ noTone(8); //...than turn it off
 ### I also figured out that the type of tape I use will block electric...
 ![Week11](/Week11/3.JPG)
 
-### After I fixed the electric problem I found one wire which plays a weired sound, I fixed it by simply changed the tone it plays, but I did not know why it did not like the old number.
-### Then I changed the number for all the wire so that they sound like Do-Re-Mi...
+### After I fixed the electric problem I found one wire which plays a weired sound, I fixed it by simply changed the tone it plays, but I did not know why it did not like the old number. https://youtu.be/CPKOIfyYXPc
+### Then I changed the number for all the wire so that they sound like Do-Re-Mi...https://youtu.be/Qop_c56FbIk
 
 ### Final Piece
 ![Week11](/Week11/4.jpg)
