@@ -419,7 +419,7 @@ noTone(8); //...than turn it off
 
 ### Testing how it works: I put the aluminum piece on top of jumper wire first, because both of them are relatively hard, they didnt touch well to allow electric pass thoroughly and fluently.
 ### I also figured out that the type of tape I use will block electric...
-![Week11](/Week11/3.jpg)
+![Week11](/Week11/3.JPG)
 
 ### After I fixed the electric problem I found one wire which plays a weired sound, I fixed it by simply changed the tone it plays, but I did not know why it did not like the old number.
 ### Then I changed the number for all the wire so that they sound like Do-Re-Mi...
@@ -427,7 +427,7 @@ noTone(8); //...than turn it off
 ### Final Piece
 ![Week11](/Week11/4.jpg)
 ### Circuit Diagram
-![Week11](/Week11/5.jpg)
+![Week11](/Week11/5.png)
 
 ### Code
 ```cpp
